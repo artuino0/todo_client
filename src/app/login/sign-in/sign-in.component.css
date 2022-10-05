@@ -1,0 +1,10 @@
+.panel-container {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  font-weight: 400;
+  box-sizing: border-box;
+  height: calc(100vh - 70px);
+}

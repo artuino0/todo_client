@@ -1,0 +1,28 @@
+.login-page {
+  width: 100%;
+  height: 100vh;
+  background-color: gray;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.login-panel {
+  background-color: #f9f9fb;
+  width: 50%;
+  height: 100%;
+}
+
+.panel-header {
+  background-color: #fff;
+  padding: 15px;
+  border-bottom: 1px solid #cecece;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  height: 47px;
+  box-sizing: border-box;
+}
+
+.login-walkthrough {
+  background: linear-gradient(135deg, #55ddff 0%, #c058f3 100%);
+  width: 50%;
+}

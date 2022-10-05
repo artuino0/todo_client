@@ -1,0 +1,41 @@
+<div class="panel-container animate__animated animate__fadeInLeft">
+  <h1>Log in.</h1>
+  <p>
+    Welcome to Arturo's ToDo app, you need an account to create your own ToDo
+    list and save it on my database. The next step is log in.
+  </p>
+  <div class="error animate__animated animate__fadeIn" *ngIf="loginError">
+    You couldn't log in, check your credentials
+  </div>
+  <div>
+    <div class="form-label">
+      <label for="user">Username</label>
+      <input
+        type="text"
+        id="user"
+        placeholder="MyAwesomeUsername"
+        [(ngModel)]="user"
+      />
+    </div>
+    <div class="form-label">
+      <label for="password">Password</label>
+      <input
+        type="password"
+        id="password"
+        placeholder="*********"
+        [(ngModel)]="password"
+      />
+    </div>
+  </div>
+  <div class="forgot-password"><span>Forgot password?</span></div>
+  <div class="login-actions">
+    <div class="remember">
+      <input type="checkbox" name="remember" id="remember-me" />
+      <label class="form-check-label" for="remember-me">Remember me</label>
+    </div>
+    <button class="login-button" (click)="getUserLogin()">Log in</button>
+  </div>
+  <p class="new-account">
+    Don't have an account? <span (click)="toSignUp()">Sign Up</span>
+  </p>
+</div>

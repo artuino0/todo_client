@@ -1,1 +1,34 @@
-<p>login works!</p>
+<!-- <div class="login-panel">
+  <div class="login-container">
+    <h1>Login</h1>
+
+    <div class="error animate__animated animate__fadeIn" *ngIf="loginError">
+      You couldn't log in, check your credentials
+    </div>
+
+    <input
+      type="text"
+      name="username"
+      id="username"
+      [(ngModel)]="user"
+      placeholder="username..."
+    />
+    <input
+      type="password"
+      name="password"
+      id="password"
+      [(ngModel)]="password"
+      placeholder="password..."
+    />
+
+    <button (click)="getUserLogin()">Sign In</button>
+  </div>
+</div>
+ -->
+<div class="login-page">
+  <div class="login-panel">
+    <div class="panel-header">Arturo Muñoz - To Do List</div>
+    <router-outlet></router-outlet>
+  </div>
+  <div class="login-walkthrough"></div>
+</div>

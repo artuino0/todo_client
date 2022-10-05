@@ -1,0 +1,74 @@
+.error {
+  text-align: center;
+  border: 1px solid #f5c2c7;
+  background-color: #f8d7da;
+  color: #842029;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.panel-container {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  font-weight: 400;
+  box-sizing: border-box;
+  height: calc(100vh - 70px);
+}
+
+.forgot-password {
+  text-align: right;
+  color: #c058f3;
+  padding: 25px 0px 20px;
+  border-bottom: 1px solid #cecece;
+}
+
+.forgot-password > span {
+  cursor: pointer;
+}
+
+.login-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.remember > label {
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  color: #c058f3;
+}
+
+.login-button {
+  background-color: #c058f3;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.login-button:active {
+  background-color: #9e3ccf;
+}
+
+.new-account {
+  text-align: center;
+  font-size: 14px;
+  color: rgb(122, 122, 122);
+  margin-top: 40px;
+}
+
+.new-account > span {
+  color: #9e3ccf;
+  font-weight: 600;
+  cursor: pointer;
+}
