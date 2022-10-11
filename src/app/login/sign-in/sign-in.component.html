@@ -1,7 +1,10 @@
 <div class="panel-container animate__animated animate__fadeInLeft">
+  <div class="signup-navigator">
+    <i class="fa-solid fa-xmark" (click)="backLogin()"></i>
+  </div>
   <h1>Sign Up</h1>
-  <p>Get access to my web application by creating an account</p>
-  <div>
+  <p>Get access to my web application by creating an account.</p>
+  <div class="signup-form">
     <div class="form-label">
       <label for="user">Username</label>
       <input type="text" id="user" placeholder="JohnDoe123" />
@@ -16,6 +19,10 @@
       <label for="user">Password</label>
       <input type="password" id="user" placeholder="*********" />
     </div>
+    <div class="form-label">
+      <label for="user">Repeat password</label>
+      <input type="password" id="user" placeholder="*********" />
+    </div>
 
     <div class="form-label">
       <label for="user">First name</label>
@@ -26,5 +33,19 @@
       <label for="user">Last name</label>
       <input type="text" id="user" placeholder="Doe" />
     </div>
+  </div>
+  <div class="signup-actions">
+    <div class="accept-conditions">
+      <input
+        class="check-conditions"
+        type="checkbox"
+        name="remember"
+        id="remember-me"
+      />
+      <label class="form-check-label" for="remember-me"
+        >Accept the account creation</label
+      >
+    </div>
+    <button class="signup-button">Create my account</button>
   </div>
 </div>

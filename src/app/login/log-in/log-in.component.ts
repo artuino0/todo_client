@@ -31,4 +31,8 @@ export class LogInComponent implements OnInit {
   toSignUp() {
     this._router.navigate(['/start/sign-up']);
   }
+
+  toRecovery() {
+    this._router.navigate(['/start/forgot-password']);
+  }
 }

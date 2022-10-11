@@ -11,7 +11,7 @@ const routes: Routes = [
       import('./login/login.module').then((m) => m.LoginModule),
   },
   { path: 'to-do', component: TodoComponent },
-  { path: '', redirectTo: '/start', pathMatch: 'full' },
+  { path: '', redirectTo: 'start', pathMatch: 'full' },
   { path: '**', component: NotFoundComponent },
 ];
 

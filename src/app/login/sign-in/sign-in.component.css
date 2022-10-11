@@ -8,3 +8,53 @@
   box-sizing: border-box;
   height: calc(100vh - 70px);
 }
+
+.signup-form {
+  border-bottom: 1px solid #cecece;
+  padding-bottom: 30px;
+}
+
+.signup-button {
+  width: fit-content;
+  background-color: #c058f3;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.signup-button:active {
+  background-color: #9e3ccf;
+}
+
+.signup-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.accept-conditions > label {
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.accept-conditions {
+  display: flex;
+  align-items: center;
+  color: rgb(122, 122, 122);
+}
+
+.signup-navigator {
+  text-align: right;
+}
+
+.signup-navigator > i {
+  font-size: 24px;
+}
+
+.signup-navigator > i:hover {
+  color: #e25454;
+  cursor: pointer;
+}
